@@ -8,4 +8,4 @@ RUN COMMIT_SHA1=$(git rev-parse --short HEAD || echo "0.0.0") \
 
 FROM ubuntu:22.04
 COPY --from=builder  /build/prometheus-proxy /prometheus-proxy
-CMD /gin-template
+CMD /prometheus-proxy
