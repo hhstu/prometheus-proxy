@@ -1,0 +1,11 @@
+webserver:
+  port: 8080
+  mode: release # debug release
+log:
+  level: info # debug info
+  encoding: console # json console
+prometheusUrl: https://127.0.0.1/select/0/prometheus/
+headers:
+  - cluster
+params:
+  - key1

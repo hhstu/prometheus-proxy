@@ -1,0 +1,1 @@
+docker buildx build --platform=linux/amd64 -t harbor-registry.inner.youdao.com/devops/popo-proxy:$1  . --push
